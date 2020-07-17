@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Browser Game</title>
+  </head>
+
+  <body>
+    <button onclick="start_stop_game()">Spiel Starten/Stoppen</button>
+    X: <span id="x"></span>
+    Y: <span id="y"></span>
+
+    Collision: <span id="collision"></span>
+
+    <div id="game_Object" style="position: relative;">
+
+        <canvas
+          width="600px"
+          height="400px"
+          id="background_Canvas" style="background: gray;
+          position: absolute;
+          top: 0px; left: 0px;"
+
+          onmousemove="mouse(event)"
+        >
+        </canvas>
+          
+        <canvas
+          width="600px"
+          height="400px"
+          id="main_Canvas" style="background: gray;
+          position: absolute;
+          top: 0px; left: 0px;"
+
+          onmousemove="mouse(event)"
+        >
+        Leider kann Ihr Browser das Spiel nicht ausführen  
+        </canvas>
+    </div>
+    
+    <script type="text/javascript" src="breakout.js"></script>
+    
+  </body>
+</html>
