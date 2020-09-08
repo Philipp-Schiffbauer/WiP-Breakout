@@ -15,4 +15,4 @@
  ## How To Play
  * Start/Stop Game -> "Enter"
  * Player Left -> "Arrow Left" or "A"
- * Player right -> "Arrow right" or "D"
+ * Player Right -> "Arrow right" or "D"
