@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Browser Game</title>
+  </head>
+    
+  <body>
+
+    <audio id="playerSound" >
+        <source src="SoundEffects/Pong 1.mp3" type="audio/mpeg" />
+    </audio>
+
+    <audio id="pointSound" >
+        <source src="SoundEffects/Single Bleep.mp3" type="audio/mpeg" />
+    </audio>
+
+    <audio id="gameOverSound" >
+        <source src="SoundEffects/Game Over Music 1.mp3" type="audio/mpeg" />
+    </audio>
+
+    <audio id="jackpotSound" >
+        <source src="SoundEffects/Jackpot Melody 2.mp3" type="audio/mpeg" />
+    </audio>
+
+
+    <div id="gameObject" style="position: relative;">    
+        <canvas
+          width="1060px"
+          height="600px"
+          id="gameCanvas" style="background: #dbdbdb;
+          position: absolute;
+          top: 0px; left: 0px;"
+          
+        >
+        </canvas>
+
+        <canvas
+        width="1060px"
+        height="600px"
+        id="logoCanvas" style="background: #00000000;
+        position: absolute;
+        top: 0px; left: 0px;"
+        
+        >
+        Leider kann Ihr Browser das Spiel nicht ausführen  
+        </canvas>
+        
+    </div>
+    
+    <script type="text/javascript" src="Breakout.js"></script>
+    
+  </body>
+</html>
